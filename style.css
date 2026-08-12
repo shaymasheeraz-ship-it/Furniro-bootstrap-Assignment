@@ -1,0 +1,88 @@
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* overflow: hidden; */
+}
+.furniro{
+    font-size: 34px;
+    font-weight: 700;
+}
+.navbar{
+    background-color: #FFFFFF;
+}
+.img{
+    background-repeat: no-repeat;
+ width: 100%;
+}
+
+
+/* .pink-card{
+
+  right: 10%;  /* distance from right */
+  top: 25%;    /* distance from top */
+} */
+
+section{ max-height: 600px; overflow: hidden; } /* so image doesn't get too tall */
+.shadow{ box-shadow: 0 8px 24px rgba(0,0,0,0.12); border-radius: 10px; } /* card effect */
+
+.btn-brown{
+  background-color: #B88E2F;
+  color: white;
+  border: none;
+  padding: 15px 50px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.btn-brown:hover{
+  background-color: #9c7625;
+}
+.card{
+    font-weight: 500;
+    width: 18rem;
+}
+
+.explore{
+  background-color: #B88E2F !important;
+}
+
+.our-designer{
+  font-size: 16px;
+}
+.fifty{
+  background-color:#FCF8F3;
+}
+
+.col-lg-4 .img-fluid{
+  height: 340px;
+  object-fit: cover; /* this is the key */
+}
+
+.box4{
+  width: 120px; /* adjust indicator size */
+  height: auto;
+}
+
+
+.uni{
+  font-size: 14px;
+  line-height: 1.4;
+}
+.form{
+   border-bottom: 2px solid black  !important;  ;
+}
+.formin{
+  font-size:12px; 
+  letter-spacing:1px;
+  
+}
+.formb{
+ font-size:12px; 
+}
+footer a:hover{ color: #A47A52 !important; } /* hover effect */
+footer input::placeholder{ color: #999; }
