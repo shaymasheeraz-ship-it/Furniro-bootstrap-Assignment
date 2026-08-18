@@ -86,3 +86,6 @@ section{ max-height: 600px; overflow: hidden; } /* so image doesn't get too tall
 }
 footer a:hover{ color: #A47A52 !important; } /* hover effect */
 footer input::placeholder{ color: #999; }
+
+
+
